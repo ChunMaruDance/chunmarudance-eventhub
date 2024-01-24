@@ -1,0 +1,11 @@
+[33mcommit b7d736d0ad5dae529faa4449e112df0ca46752e4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Vadym Mykolaichuk <chunmarudance@gmail.com>
+Date:   Wed Jan 24 17:22:07 2024 +0200
+
+    exception
+
+[33mcommit 6493be0936eab0e591ddc8125f1ff72eec7cdb1f[m[33m ([m[1;33mtag: [m[1;33mversion_1[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Vadym Mykolaichuk <chunmarudance@gmail.com>
+Date:   Wed Jan 24 16:49:54 2024 +0200
+
+    project

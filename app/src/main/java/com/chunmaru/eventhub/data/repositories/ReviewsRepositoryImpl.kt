@@ -2,11 +2,10 @@ package com.chunmaru.eventhub.data.repositories
 
 import android.util.Log
 import com.chunmaru.eventhub.data.FirebaseKnot
-import com.chunmaru.eventhub.data.model.CategoryEventCount
-import com.chunmaru.eventhub.data.model.EventReviewCount
-import com.chunmaru.eventhub.data.model.FirebaseReview
-import com.chunmaru.eventhub.data.model.Review
-import com.chunmaru.eventhub.domain.ReviewsRepository
+import com.chunmaru.eventhub.data.model.event.EventReviewCount
+import com.chunmaru.eventhub.data.model.reviews.FirebaseReview
+import com.chunmaru.eventhub.data.model.reviews.Review
+import com.chunmaru.eventhub.domain.repositories.ReviewsRepository
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener

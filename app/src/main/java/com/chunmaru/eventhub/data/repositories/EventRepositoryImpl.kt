@@ -2,14 +2,13 @@ package com.chunmaru.eventhub.data.repositories
 
 import android.util.Log
 import com.chunmaru.eventhub.data.FirebaseKnot
-import com.chunmaru.eventhub.data.model.Author
-import com.chunmaru.eventhub.data.model.CategoryEventCount
-import com.chunmaru.eventhub.data.model.Event
-import com.chunmaru.eventhub.data.model.EventAuthorType
-import com.chunmaru.eventhub.data.model.EventTypeSelected
-import com.chunmaru.eventhub.data.model.EventsCategories
-import com.chunmaru.eventhub.data.model.FireBaseEvent
-import com.chunmaru.eventhub.domain.EventRepository
+import com.chunmaru.eventhub.data.model.author.Author
+import com.chunmaru.eventhub.data.model.event.CategoryEventCount
+import com.chunmaru.eventhub.data.model.event.Event
+import com.chunmaru.eventhub.data.model.event.EventAuthorType
+import com.chunmaru.eventhub.data.model.event.EventsCategories
+import com.chunmaru.eventhub.data.model.event.FireBaseEvent
+import com.chunmaru.eventhub.domain.repositories.EventRepository
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener

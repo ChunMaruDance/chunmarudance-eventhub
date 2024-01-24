@@ -2,20 +2,13 @@ package com.chunmaru.eventhub.data.repositories
 
 import android.util.Log
 import com.chunmaru.eventhub.data.FirebaseKnot
-import com.chunmaru.eventhub.data.model.DeletedEventInfo
-import com.chunmaru.eventhub.data.model.FireBaseDeletedEventInfo
-import com.chunmaru.eventhub.domain.DeletedEventsMessageRepository
+import com.chunmaru.eventhub.data.model.event.DeletedEventInfo
+import com.chunmaru.eventhub.data.model.event.FireBaseDeletedEventInfo
+import com.chunmaru.eventhub.domain.repositories.DeletedEventsMessageRepository
 import com.google.firebase.auth.ktx.auth
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseError
-import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import kotlinx.coroutines.NonCancellable
-import kotlinx.coroutines.channels.awaitClose
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.tasks.await
 import kotlinx.coroutines.withContext
 

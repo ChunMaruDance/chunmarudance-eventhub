@@ -2,7 +2,7 @@ package com.chunmaru.eventhub.data.repositories
 
 import android.util.Log
 import com.chunmaru.eventhub.data.FirebaseKnot
-import com.chunmaru.eventhub.domain.EventTypeRepository
+import com.chunmaru.eventhub.domain.repositories.EventTypeRepository
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase

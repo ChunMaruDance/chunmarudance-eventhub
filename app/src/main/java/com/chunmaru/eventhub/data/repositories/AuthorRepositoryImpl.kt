@@ -3,12 +3,12 @@ package com.chunmaru.eventhub.data.repositories
 
 import android.util.Log
 import com.chunmaru.eventhub.data.FirebaseKnot
-import com.chunmaru.eventhub.data.model.Author
-import com.chunmaru.eventhub.data.model.AuthorEventCount
-import com.chunmaru.eventhub.data.model.Event
-import com.chunmaru.eventhub.data.model.FireBaseAuthor
+import com.chunmaru.eventhub.data.model.author.Author
+import com.chunmaru.eventhub.data.model.event.AuthorEventCount
+import com.chunmaru.eventhub.data.model.event.Event
+import com.chunmaru.eventhub.data.model.author.FireBaseAuthor
 import com.chunmaru.eventhub.data.model.ImageData
-import com.chunmaru.eventhub.domain.AuthorRepository
+import com.chunmaru.eventhub.domain.repositories.AuthorRepository
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.FirebaseDatabase

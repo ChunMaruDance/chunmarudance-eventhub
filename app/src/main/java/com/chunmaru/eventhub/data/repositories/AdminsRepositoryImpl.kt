@@ -1,7 +1,7 @@
 package com.chunmaru.eventhub.data.repositories
 
 import com.chunmaru.eventhub.data.FirebaseKnot
-import com.chunmaru.eventhub.domain.AdminsRepository
+import com.chunmaru.eventhub.domain.repositories.AdminsRepository
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
