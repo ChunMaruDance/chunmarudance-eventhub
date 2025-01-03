@@ -15,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "558121153874-pt5gecg8augs78u5077lm8edr1ibd7io.apps.googleusercontent.com",
+          "client_id": "558121153874-ki89idac27o2aagdo39b3nvhggt3ugvu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.chunmaru.eventhub",
-            "certificate_hash": "62bde79f5df3c3a48f56d46635d16d7964f7e064"
+            "certificate_hash": "ee12975f7fb9bf583eac493b24ca2460a99636e4"
           }
         },
         {

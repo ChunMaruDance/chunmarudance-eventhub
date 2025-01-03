@@ -1,4 +1,4 @@
-package com.chunmaru.eventhub.domain.navigation
+package com.chunmaru.eventhub.presentation.navigation
 
 import android.net.Uri
 

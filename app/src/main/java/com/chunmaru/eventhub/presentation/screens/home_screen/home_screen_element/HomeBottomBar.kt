@@ -29,8 +29,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.chunmaru.eventhub.domain.navigation.BottomNavItem
-import com.chunmaru.eventhub.domain.navigation.NavigationState
+import com.chunmaru.eventhub.presentation.navigation.BottomNavItem
+import com.chunmaru.eventhub.presentation.navigation.NavigationState
 
 @Composable
 fun HomeBottomBar(

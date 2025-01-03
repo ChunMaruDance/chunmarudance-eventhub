@@ -10,10 +10,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
-import com.chunmaru.eventhub.domain.navigation.BottomNavItem
-import com.chunmaru.eventhub.domain.navigation.AppNavGraph
-import com.chunmaru.eventhub.domain.navigation.Screen
-import com.chunmaru.eventhub.domain.navigation.rememberNavigationState
+import com.chunmaru.eventhub.presentation.navigation.BottomNavItem
+import com.chunmaru.eventhub.presentation.navigation.AppNavGraph
+import com.chunmaru.eventhub.presentation.navigation.Screen
+import com.chunmaru.eventhub.presentation.navigation.rememberNavigationState
 import com.chunmaru.eventhub.presentation.screens.admin_screen.AdminScreen
 import com.chunmaru.eventhub.presentation.screens.change_profile_screen.ChangeProfileScreen
 import com.chunmaru.eventhub.presentation.screens.comments_screen.CommentScreen
